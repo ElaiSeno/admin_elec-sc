@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/*FONT*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*Nav Bar*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+nav {
+    background-color: #122c4f;
+    color: #fbf9e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*Access*/
+h1 {
+    margin: 5%;
+    text-align: center;
+    color: #fff
+}
+  .container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
+
+  .clickable-box {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+      border: 2px solid #ccc;
+      /* Added border */
+  }
+
+  .clickable-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      border-color: #f70505;
+      /* Border color on hover */
+  }
+
+  .clickable-box h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+  }
+
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
