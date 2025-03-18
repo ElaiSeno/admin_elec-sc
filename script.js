@@ -20,8 +20,7 @@ document.getElementById('AdminLogin').addEventListener('submit', function (event
     simulateBackendRequest(username, password)
         .then(isAuthenticated => {
             if (isAuthenticated) {
-                // Redirect to another page if authentication is successful
-                window.location.href = "/Home/index.html"; // Make sure this URL exists
+                window.location.href = "/Home/index.html";
             } else {
                 alert('Invalid username or password');
             }
@@ -32,7 +31,6 @@ document.getElementById('AdminLogin').addEventListener('submit', function (event
         });
 });
 
-// Simulate a backend request
 function simulateBackendRequest(username, password) {
     return new Promise((resolve, reject) => {
         // Simulate some delay like a real API call

@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #000;
+    background-color:  #122c4f;
     color: #ffff;
 }
 .mainbox {
@@ -21,7 +21,7 @@ body{
     position: relative;
     margin: 10% auto;
     /* border: 1px rgb(0, 255, 200) solid; */
-    background: #122c4f;
+    background: #000;
     border-radius: 15px;
     padding: 5px;
     overflow: hidden;
@@ -60,7 +60,7 @@ margin-left: 60px;
 
 .input:focus,
 .input-field:focus {
-    border: 2px solid #ff0000;
+    border: 2px solid #92f19f;
 }
 
 .submit-btn {
