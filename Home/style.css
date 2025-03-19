@@ -38,8 +38,8 @@ h1 {
       display: flex;
       justify-content: space-around;
       margin-top: 20px;
-      flex-wrap: wrap; /* Ensures containers wrap on smaller screens */
-      gap: 20px; /* Adds some space between containers */
+      flex-wrap: wrap;  
+      gap: 20px;  
   }
 
   .clickable-box {
